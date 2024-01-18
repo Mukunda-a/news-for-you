@@ -16,7 +16,7 @@ const News = (props) => {
 
   const updateNews = async () => {
     props.setProgress(10);
-    const APIkey = '4ad3e33c05d34e6cb826fad2e27d27b0'; // Define API key here
+    const APIkey = '123456789'; // Define API key here
 
     const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${APIkey}&page=${page}&pageSize=${props.pageSize}`;
     setLoading(true);
